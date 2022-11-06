@@ -5,8 +5,8 @@ if __name__ == "__main__":
     import json
 
     fig = px.line(
-        x=["한용", "지영", "기원"],  y=[95, 98, 99],       # replace with my own data source
-        title ="파이썬 성적", height=325
+        x=["rubin", "jiyoung", 'kiwon'],  y=[95, 98, 99],       # replace with my own data source
+        title ="Python Exam Score", height=325
     )
     
     app = Dash(__name__)
